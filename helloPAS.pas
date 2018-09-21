@@ -6,7 +6,6 @@ var
     age : integer;
     name : String;
     result : String;
-    {c : Char;}
     i : Integer;
 Const
     hello = 'Hello';
@@ -19,10 +18,4 @@ begin
     readln(name);
 
     writeln(hello + ' ''' + name + ''' You are ' + IntToStr(age) + ' years old.');
-
-    {result := hello + ' ''' + name + ''' You are ' + IntToStr(age) + ' years old.';
-    write('By char: ');
-    for i:=1 to Length(result) do
-        write(result[i]);
-    writeln();}
 end.

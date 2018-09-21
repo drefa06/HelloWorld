@@ -18,15 +18,6 @@ int main(void) {
     
     //print all
     cout << hello << " '" << name << "' You are " << age << " years old" << endl;
-    //concatenate before print
-    string reponse = hello + " '" + name + "' You are "; //cannot concatenate this with int
-    stringstream sstm;
-    sstm << reponse << age << " years old"; 
-    cout << sstm.str() << endl;
-    //print char by char
-    for(string::iterator r = reponse.begin(); r!=reponse.end();++r) cout << *r;
-    cout << endl;
-
 
     return(1);
 }
