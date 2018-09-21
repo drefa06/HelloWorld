@@ -1,0 +1,24 @@
+#!/usr/bin/expect
+set hello "Hello"
+set age "0"
+set name "Abc"
+
+send_user "Enter your age: "
+expect_user {
+	-re "(\[0-9]*)\n" {
+		set age $expect_out(1,string)
+		}
+	}
+
+
+send_user "Enter your name: "
+expect_user {
+	-re "(\[a-zA-Z -]*)\n" {
+		set name $expect_out(1,string)
+		}
+	}
+
+send_user -- "$hello '$name' You are $age old.\n"
+
+
+
