@@ -8,10 +8,10 @@ Ask to user its name
 print "Hello 'name' you are age old"
 
 The language I learned ordered by time (with indication if file is availaible or not):
-- [ ] <pre><code>Assembler 6809 |         Bac & BTS</code></pre>
-- [ ] Assembler 8086 | BTS and Engineering School
-- [x] C              | BTS and Engineering School
-- [x] Pascal         | Engineering School
+- [ ] <pre>Assembler 6809 | Bac & BTS</pre>
+- [ ] <pre>Assembler 8086 | BTS and Engineering School</pre>
+- [x] <pre>C              | BTS and Engineering School</pre>
+- [x] <pre>Pascal         | Engineering School</pre>
 - [x] Ada            |  Engineering School
 - [x] Shell          |  Engineering School and every jobs
 - [x] C++            |  Engineering School and jobs
