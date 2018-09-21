@@ -21,6 +21,7 @@ The language I learned ordered by time (with indication if file is availaible or
 | [ ]  | Delphi         | Training Period |
 | [ ]  | Visual Basic   | Military service |
 | [ ]  | Visual C++     | Jobs |
+| [x]  | DCL            | Jobs |
 | [x]  | Perl           | Jobs |
 | [x]  | Awk            | Jobs |
 | [ ]  | Asp            | Jobs |
